@@ -1,0 +1,9 @@
+{
+  "name": "rnwb",
+  "version": "1.0.0",
+  "description": "multiplatform trial project",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"]
+}

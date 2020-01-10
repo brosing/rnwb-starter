@@ -1,0 +1,18 @@
+{
+  "name": "@rnwb/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-native": "^0.61.5"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.60.30",
+    "typescript": "^3.7.4"
+  }
+}
