@@ -37,7 +37,10 @@
       },
     ),
   },
-  watchFolders: [path.resolve(__dirname, '../common')],
+  watchFolders: [
+    path.resolve(__dirname, '../common'),
+    path.resolve(__dirname, '../common/node_modules')
+  ],
   ```
 - Don't forget to use `const path = require('path')`
 - Configure React web to use react-native AppRegistry:
@@ -102,9 +105,9 @@
   <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
   ```
   - Configure tsconfig.json: just copy it from web package & modify it.
-    - Remove "noEmit", "isolatedModules" & "allowJs"
-    - Add "outDir" & "declaration"
-    - Changes "module" to `commonjs`
+    - Remove `noEmit`, `isolatedModules` & `allowJs`
+    - Add `outDir` & `declaration`
+    - Changes `module` to 'commonjs'
   - Changes package.json `main` to "dist/index.js"
   - Don't forget to build your common package before running the web or app
   - Go back to Root folder & run `yarn` to make sure all dependecies is installed
