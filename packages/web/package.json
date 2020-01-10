@@ -40,9 +40,5 @@
   },
   "devDependencies": {
     "@types/react-native": "^0.60.30"
-  },
-  "resolutions": {
-    "serialize-javascript": "^2.1.1"
   }
-  
 }
