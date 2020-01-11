@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "postinstall": "yarn build",
     "build": "rm -rf dist && tsc",
     "watch": "tsc --watch"
   },

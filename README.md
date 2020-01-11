@@ -64,7 +64,7 @@
   ```
 - Go to package web & run `yarn add react-native-web` & `yarn add -D @types/react-native`
 
-## Step 1: React Native Web Initialize
+## Step 2: React Native Web Initialize
 - Create folder named common inside packages
 - Move to common folder & run `yarn init -y`
 - Don't forget to change package name to `@rnwb/common`
@@ -112,7 +112,8 @@
   - Don't forget to build your common package before running the web or app
   - Go back to Root folder & run `yarn` to make sure all dependecies is installed
 
-## Step to build
+## Step 4: How to build
 - Create component in package common
 - Run `yarn build` in package common
 - Then you can go to each package folder & use `yarn start` to run in each platform
+- NOTE: try to deploy with now? build your web package first & then run `now build`
