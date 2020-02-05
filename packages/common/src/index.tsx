@@ -10,6 +10,7 @@ export const App = () => {
       <Text style={styles.instructions}>To get started, edit App.tsx</Text>
       <Text style={styles.instructions}>{count}</Text>
       <Button title="increment" onPress={() => setCount(count + 1)} />
+      <Button title="decrement" onPress={() => setCount(count - 1)} />
     </View>
   );
 };
