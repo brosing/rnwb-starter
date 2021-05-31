@@ -1,4 +1,7 @@
+# Steps to reproduce this starter kit...
+
 ## Step 1: React & React Native Initialize
+
 - Init package.json
 - Create folder `packages`
 - Run inside packages folder
@@ -116,4 +119,3 @@
 - Create component in package common
 - Run `yarn build` in package common
 - Then you can go to each package folder & use `yarn start` to run in each platform
-- NOTE: try to deploy with now? build your web package first & then run `now build`

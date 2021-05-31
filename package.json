@@ -1,7 +1,7 @@
 {
-  "name": "rnwb",
+  "name": "l4m",
   "version": "1.0.0",
-  "description": "multiplatform trial project",
+  "description": "multiplatform lifepack for doctor",
   "main": "index.js",
   "license": "MIT",
   "private": true,
