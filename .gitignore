@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-dist
+/packages/common/dist
 
 # dependencies
 /node_modules
