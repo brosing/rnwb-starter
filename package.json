@@ -1,7 +1,7 @@
 {
   "name": "l4m",
   "version": "1.0.0",
-  "description": "multiplatform lifepack for doctor",
+  "description": "multiplatform starter",
   "main": "index.js",
   "license": "MIT",
   "private": true,
